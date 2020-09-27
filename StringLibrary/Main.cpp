@@ -7,14 +7,32 @@
 
 using namespace std;
 
+
 int main()
 {
     
     {
-        String _str = "johnson";
-        cout << _str << endl;
-        cout << _str.size << endl;
+        String _str1 = "a";
+        String _str2 = "johnson";
+
+        cout << _str1[_str1.getLength()-1] << endl;
+
+        _str1[0] = 'k';
+        _str1[22] = 'k';
+
+        if (_str1) {
+            cout << "yes" << endl;
+        }
+
+
+
+
+        cout << _str1 << endl;
+        cout << _str1.getLength() << endl;
+
+
     }
+
 
     cout << "end" << endl;
 }
